@@ -17,6 +17,11 @@ task md5 {
 }
 
 workflow ga4ghMd5 {
+    meta {
+        author: "Charles Overbeck"
+        email:  "coverbec@ucsc.edu"
+    }
+
  File inputFile
  call md5 { input: inputFile=inputFile }
 }
