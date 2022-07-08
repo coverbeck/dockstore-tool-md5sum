@@ -18,6 +18,7 @@ task md5 {
 
 workflow ga4ghMd5 {
     meta {
+        description: "My wonderful description"
         author: "Charles Overbeck"
         email:  "coverbec@ucsc.edu"
     }
